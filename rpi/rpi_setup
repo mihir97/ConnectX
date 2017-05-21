@@ -1,0 +1,6 @@
+sudo apt-get install git nodered mosquitto hostapd dnsmasq 
+mosquitto -d -p 1884
+git clone https://github.com/oblique/create_ap
+cd create_ap
+make install
+sudo create_ap -m bridge wlan0 eth0 RpiAccess password
