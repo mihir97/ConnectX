@@ -1,5 +1,10 @@
 # Node-RED
 
+The following chnges have been made to original repo for the current project:
+
+/public/red/red.js Modified it so on deploying it will send the graph to hub for deploying
+
+/red/api/index.js Modified it so that it will publish graph to MQTT.
 http://nodered.org
 
 [![Build Status](https://travis-ci.org/node-red/node-red.svg)](https://travis-ci.org/node-red/node-red)
